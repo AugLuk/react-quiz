@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: cadetblue;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-bar {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: teal;
+    color: white;
+}
+
+.header {
+    top: 0;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    font-size: 22px;
+}
+
+.footer {
+    bottom: 0;
+    gap: 15px;
+}
+
+.footer--stats-label {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer--stat {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
+.footer--checkmark {
+    color: #0f0;
+}
+
+.footer--cross {
+    color: red;
+}
+
+.footer--percentage {
+    width: 125px;
+}
+
+.main-container {
+    height: 100vh;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.card {
+    text-align: center;
+    width: 700px;
+    height: 360px;
+    background-color: white;
+    border-radius: 25px;
+
+    flex-direction: column;
+}
+
+.card--title {
+    margin: 0;
+}
+
+.card--question-container {
+    margin: 0;
+    height: 70px;
+    padding: 5px;
+    width: calc(min(100vw, 700px) - 100px);
+}
+
+.card--question {
+    margin: 0;
+}
+
+.card--answer {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: calc(min(100vw, 470px) - 100px);
+    color: white;
+}
+
+.bottom-button {
+    padding: 10px;
+    background-color: teal;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
